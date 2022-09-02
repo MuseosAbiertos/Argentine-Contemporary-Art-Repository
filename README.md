@@ -6,16 +6,16 @@ Museos Abiertos crea en 2021 el 'Repositorio de Arte Contemporáneo Argentino' c
 
 Este dataset contiene 
 
-* WorkAgent 501
-* Artworks 2004
-* Derivatives	images 10997
-* Artworks & derivatives 13001
-* WorkType Normalized	1283
+* WorkAgent: 501
+* Artworks: 2004
+* Derivatives	images: 10997
+* Artworks & derivatives: 13001
+* WorkType Normalized: 1283
 
 Este conjunto de datos de investigación contiene 13.001 registros, que representan todas las obras y sus imágenes derivadas y han sido catalogadas en nuestra base de datos. Incluye metadatos normalizados con VRA Core y Dublin Core en Inglés y Español.
 
-| VRA Core                    | Dublin Core                 |
-|-----------------------------|-----------------------------|
+| VRA Core               | Dublin Core              |
+|------------------------|--------------------------|
 | Admin Cataloguer       | Title                    |
 | Work Refid             | Creator                  |
 | Work Agent             | Subject [es]             |
@@ -46,11 +46,11 @@ Algunos de estos registros tienen información incompleta y se completarán en p
 En este momento, los datos están disponibles en formato CSV, codificados en UTF-8. Aunque UTF-8 es el estándar para las codificaciones de caracteres multilingües, no es interpretado correctamente por Excel en un Mac. Los usuarios de Excel en Mac pueden convertir el UTF-8 a UTF-16 para que el archivo pueda importarse correctamente.
 
 
-## Additional usage guidelines
+## Directrices de uso
 
 ### Imágenes no incluídas
 
-Las imágenes no están incluidas y no forman parte del conjunto de datos. Este dataset contiene las URL para visualizar las imágenes que se alojan en nuestro servidor: https://museosabiertos.org/assets/
+Las imágenes no están incluidas y no forman parte del conjunto de datos, sin embargo este dataset contiene las URL para visualizar las imágenes que se alojan en nuestro servidor: https://museosabiertos.org/assets/
 
 
 ### Investigación en progreso
@@ -63,9 +63,9 @@ Tenemos previsto actualizar periódicamente los conjuntos de datos con informaci
 Aceptamos aportes de fuentes comprobadas. Antes de hacer un Pull requests comunícate con nosotros.
 
 ### Atribuír a Museos Abiertos
-'Museos Abiertos' solicita que se reconozca activamente y se atribuya a 'Museos Abiertos'. Si utilizas uno o ambos conjuntos de datos para una publicación, cítalo utilizando el identificador de objeto digital DOI. La atribución apoya los esfuerzos para liberar más datos y también reduce la cantidad de "datos huérfanos", ayudando a mantener los enlaces a fuentes autorizadas.
+Museos Abiertos solicita que se reconozca activamente y se atribuya a Museos Abiertos. Si utilizas uno o ambos conjuntos de datos para una publicación, cítalo utilizando el identificador de objeto digital DOI. La atribución apoya los esfuerzos para liberar más datos y también reduce la cantidad de "datos huérfanos", ayudando a mantener los enlaces a fuentes autorizadas.
 
 ### No falsear el conjunto de datos
-No engañes a otros ni tergiverses los datos o su fuente. No debes utilizar las marcas comerciales de 'Museos Abiertos' ni afirmar o dar a entender que 'Museos Abiertos' te respalda o a su uso del conjunto de datos.
+No engañes a otros ni tergiverses los datos o su fuente. No debes utilizar las marcas comerciales de Museos Abiertos ni afirmar o dar a entender que Museos Abiertos te respalda o a su uso del conjunto de datos.
 
 Siempre que transformes, traduzcas o modifiques de algún modo el conjunto de datos, debes dejar claro que la información resultante ha sido modificada. Si enriqueces o modificas de algún modo el conjunto de datos, considera la posibilidad de publicar el conjunto de datos derivado sin restricciones de reutilización.
