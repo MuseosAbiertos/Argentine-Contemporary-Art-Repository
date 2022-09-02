@@ -16,30 +16,30 @@ Este conjunto de datos de investigación contiene 13.001 registros, que represen
 
 | VRA Core                    | Dublin Core                 |
 |-----------------------------|-----------------------------|
-| VRAE:Admin Cataloguer       | DC:Title                    |
-| VRAE:Work Refid             | DC:Creator                  |
-| VRAE:Work Agent             | DC:Subject [es]             |
-| VRAE:Work Title             | DC:Subject [en]             |
-| VRAE:Work Type [es]         | DC:Description [es]         |
-| VRAE:Work Type [en]         | DC:Description [en]         |
-| VRAE:Work Material [es]     | DC:Publisher                |
-| VRAE:Work Material [en]     | DC:Contributor              |
-| VRAE:Work Description [es]  | DC:Coverage                 |
-| VRAE:Work Description [en]  | DC:Date                     |
-| VRAE:Work Measurements      | DC:Type [es]                |
-| VRAE:Work Date              | DC:Type [en]                |
-| VRAE:Work Location          | DC:Format [es]              |
-| VRAE:GPSLatitude            | DC:Format [en] DC:Copyright |
-| VRAE:GPSLongitude           | DC:Notice                   |
-| VRAE:Image Refid            | DC:Source                   |
-| VRAE:Image Relation         | DC:Language                 |
-| VRAE:Work Location Creation | DC:Relation                 |
-| VRAE:Work Cultural Context  | DC:Identifier               |
-| VRAE:Work Style Period      | DC:Identifier               |
-| VRAE:Collection Refid       |                             |
-| VRAE:Image Rights           |                             |
-| VRAE:Image Source           |                             |
-| VRAE:Image Href             |                             |
+| Admin Cataloguer       | Title                    |
+| Work Refid             | Creator                  |
+| Work Agent             | Subject [es]             |
+| Work Title             | Subject [en]             |
+| Work Type [es]         | Description [es]         |
+| Work Type [en]         | Description [en]         |
+| Work Material [es]     | Publisher                |
+| Work Material [en]     | Contributor              |
+| Work Description [es]  | Coverage                 |
+| Work Description [en]  | Date                     |
+| Work Measurements      | Type [es]                |
+| Work Date              | Type [en]                |
+| Work Location          | Format [es]              |
+| GPSLatitude            | Format [en]              |
+| GPSLongitude           | Notice                   |
+| Image Refid            | Source                   |
+| Image Relation         | Language                 |
+| Work Location Creation | Relation                 |
+| Work Cultural Context  | Identifier               |
+| Work Style Period      | Identifier               |
+| Collection Refid       | Copyright                |
+| Image Rights           |                          |
+| Image Source           |                          |
+| Image Href             |                          |
 
 Algunos de estos registros tienen información incompleta y se completarán en próximas versiones.
 
