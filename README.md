@@ -1,42 +1,71 @@
 # Argentine Contemporary Art Repository
 
-Release Candidate 03 | 2022-09-01
 [English-Spanish]
-1280 standardized objects with VRA Core, Dublin Core, GPS, IPTC
-—
-Total objects: 2003
-Total artist: 501
 
----
+Museos Abiertos crea en 2021 el 'Repositorio de Arte Contemporáneo Argentino' con su primer dataset proveniente de la 'Colección Bruzzone' la cual contenía, al día 2021/06/07, 2004 registros de objetos (artworks) y 2004 documentos con los datos descriptivos de las obras para 501 WorkAgents (artistas).
 
-The Museum of Modern Art (MoMA) acquired its first artworks in 1929, the year it was established. Today, the Museum’s evolving collection contains almost 200,000 works from around the world spanning the last 150 years. The collection includes an ever-expanding range of visual expression, including painting, sculpture, printmaking, drawing, photography, architecture, design, film, and media and performance art.
+Este dataset contiene 
 
-MoMA is committed to helping everyone understand, enjoy, and use our collection. The Museum’s website features 97,859 artworks from 27,058 artists. This research dataset contains 139,937 records, representing all of the works that have been accessioned into MoMA’s collection and cataloged in our database. It includes basic metadata for each work, including title, artist, date made, medium, dimensions, and date acquired by the Museum. Some of these records have incomplete information and are noted as “not Curator Approved.”
+* WorkAgent 501
+* Artworks 2004
+* Derivatives	images 10997
+* Artworks & derivatives 13001
+* WorkType Normalized	1283
 
-The Artists dataset contains 15,250 records, representing all the artists who have work in MoMA's collection and have been cataloged in our database. It includes basic metadata for each artist, including name, nationality, gender, birth year, death year, Wiki QID, and Getty ULAN ID.
+Este conjunto de datos de investigación contiene 13.001 registros, que representan todas las obras y sus imágenes derivadas y han sido catalogadas en nuestra base de datos. Incluye metadatos normalizados con VRA Core y Dublin Core en Inglés y Español.
 
-At this time, both datasets are available in CSV format, encoded in UTF-8. While UTF-8 is the standard for multilingual character encodings, it is not correctly interpreted by Excel on a Mac. Users of Excel on a Mac can convert the UTF-8 to UTF-16 so the file can be imported correctly. The datasets are also available in JSON.
+| VRA Core                    | Dublin Core                 |
+|-----------------------------|-----------------------------|
+| VRAE:Admin Cataloguer       | DC:Title                    |
+| VRAE:Work Refid             | DC:Creator                  |
+| VRAE:Work Agent             | DC:Subject [es]             |
+| VRAE:Work Title             | DC:Subject [en]             |
+| VRAE:Work Type [es]         | DC:Description [es]         |
+| VRAE:Work Type [en]         | DC:Description [en]         |
+| VRAE:Work Material [es]     | DC:Publisher                |
+| VRAE:Work Material [en]     | DC:Contributor              |
+| VRAE:Work Description [es]  | DC:Coverage                 |
+| VRAE:Work Description [en]  | DC:Date                     |
+| VRAE:Work Measurements      | DC:Type [es]                |
+| VRAE:Work Date              | DC:Type [en]                |
+| VRAE:Work Location          | DC:Format [es]              |
+| VRAE:GPSLatitude            | DC:Format [en] DC:Copyright |
+| VRAE:GPSLongitude           | DC:Notice                   |
+| VRAE:Image Refid            | DC:Source                   |
+| VRAE:Image Relation         | DC:Language                 |
+| VRAE:Work Location Creation | DC:Relation                 |
+| VRAE:Work Cultural Context  | DC:Identifier               |
+| VRAE:Work Style Period      | DC:Identifier               |
+| VRAE:Collection Refid       |                             |
+| VRAE:Image Rights           |                             |
+| VRAE:Image Source           |                             |
+| VRAE:Image Href             |                             |
+
+Algunos de estos registros tienen información incompleta y se completarán en próximas versiones.
+
+En este momento, los datos están disponibles en formato CSV, codificados en UTF-8. Aunque UTF-8 es el estándar para las codificaciones de caracteres multilingües, no es interpretado correctamente por Excel en un Mac. Los usuarios de Excel en Mac pueden convertir el UTF-8 a UTF-16 para que el archivo pueda importarse correctamente.
 
 
 ## Additional usage guidelines
 
-### Images not included
-Images are not included and are not part of the dataset. To license images of works of art in MoMA’s collection please contact Art Resource (North America) or Scala Archives (outside North America).
+### Imágenes no incluídas
 
-### Research in progress
-This data is provided “as is” for research purposes and you use this data at your own risk. Much of the information included in this dataset is not complete and has not been curatorially approved. MoMA offers the datasets as-is and makes no representations or warranties of any kind.
+Las imágenes no están incluidas y no forman parte del conjunto de datos. Este dataset contiene las URL para visualizar las imágenes que se alojan en nuestro servidor: https://museosabiertos.org/assets/
 
-We plan to update the datasets with new and revised information on a regular basis. You are advised to regularly update your copy of the datasets to ensure you are using the best available information.
+
+### Investigación en progreso
+Estos datos se facilitan "tal cual" para fines de investigación, su uso queda bajo tu propia responsabilidad. Parte de la información incluida en este conjunto de datos no está completa y no ha sido aprobada por los conservadores. Museos Abiertos ofrece los datos tal y como están y no ofrece representaciones ni garantías de ningún tipo.
+
+Tenemos previsto actualizar periódicamente los conjuntos de datos con información nueva y revisada. Le recomendamos que actualice periódicamente su copia de los conjuntos de datos para asegurarse de que utiliza la mejor información disponible.
+
 
 ### Pull requests
-Because these datasets are generated from our internal database, we do not accept pull requests. If you have identified errors or have extra information to share, please email us at collection@moma.org and we will forward to the appropriate department for review.
+Aceptamos aportes de fuentes comprobadas. Antes de hacer un Pull requests comunícate con nosotros.
 
-### Give attribution to MoMA
-MoMA requests that you actively acknowledge and give attribution to MoMA wherever possible. If you use one or both of the datasets for a publication, please cite it using the digital object identifier DOI. Attribution supports efforts to release other data. It also reduces the amount of “orphaned data,” helping retain links to authoritative sources.
+### Atribuír a Museos Abiertos
+'Museos Abiertos' solicita que se reconozca activamente y se atribuya a 'Museos Abiertos'. Si utilizas uno o ambos conjuntos de datos para una publicación, cítalo utilizando el identificador de objeto digital DOI. La atribución apoya los esfuerzos para liberar más datos y también reduce la cantidad de "datos huérfanos", ayudando a mantener los enlaces a fuentes autorizadas.
 
-### Do not misrepresent the dataset
-Do not mislead others or misrepresent the datasets or their source. You must not use MoMA’s trademarks or otherwise claim or imply that MoMA endorses you or your use of the dataset.
+### No falsear el conjunto de datos
+No engañes a otros ni tergiverses los datos o su fuente. No debes utilizar las marcas comerciales de 'Museos Abiertos' ni afirmar o dar a entender que 'Museos Abiertos' te respalda o a su uso del conjunto de datos.
 
-Whenever you transform, translate or otherwise modify the dataset, you must make it clear that the resulting information has been modified. If you enrich or otherwise modify the dataset, consider publishing the derived dataset without reuse restrictions.
-
-The writers of these guidelines thank the Tate, Cooper-Hewitt, and Europeana.
+Siempre que transformes, traduzcas o modifiques de algún modo el conjunto de datos, debes dejar claro que la información resultante ha sido modificada. Si enriqueces o modificas de algún modo el conjunto de datos, considera la posibilidad de publicar el conjunto de datos derivado sin restricciones de reutilización.
