@@ -1,4 +1,4 @@
-# Argentine Contemporary Art Repository
+# Argentine Contemporary Art Repository / Repositorio de Arte Contemporáneo Argentino
 
 [English-Spanish]
 
