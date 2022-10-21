@@ -63,7 +63,7 @@ Tenemos previsto actualizar periódicamente los conjuntos de datos con informaci
 Aceptamos aportes de fuentes comprobadas. Antes de hacer un Pull requests comunícate con nosotros.
 
 ### Atribuír a Museos Abiertos
-Museos Abiertos solicita que se reconozca activamente y se atribuya a Museos Abiertos. Si utilizas uno o ambos conjuntos de datos para una publicación, cítalo utilizando el identificador de objeto digital DOI. La atribución apoya los esfuerzos para liberar más datos y también reduce la cantidad de "datos huérfanos", ayudando a mantener los enlaces a fuentes autorizadas.
+Museos Abiertos solicita que se reconozca activamente y se atribuya a Museos Abiertos. Si utilizas uno o ambos conjuntos de datos para una publicación, cítalo utilizando el identificador de objeto digital [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7236004.svg)](https://doi.org/10.5281/zenodo.7236004). La atribución apoya los esfuerzos para liberar más datos y también reduce la cantidad de "datos huérfanos", ayudando a mantener los enlaces a fuentes autorizadas.
 
 ### No falsear el conjunto de datos
 No engañes a otros ni tergiverses los datos o su fuente. No debes utilizar las marcas comerciales de Museos Abiertos ni afirmar o dar a entender que Museos Abiertos te respalda o a su uso del conjunto de datos.
